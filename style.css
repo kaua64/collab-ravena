@@ -1,0 +1,32 @@
+
+
+
+:root{
+  /*background: linear-gradient(90deg, #001e57, #3a88fe, #fecb3e, #ff8647);*/
+  background-color: rgb(29, 29, 29);
+  /* background-color: white; */
+}
+
+#sidebar{
+  display: inline-flex;
+  
+  background-color: rgba(11, 67, 134, 1);
+}
+
+#menu{
+  border:none;
+  cursor:pointer;
+  background: none;
+
+  display:flex;
+  flex-direction: column;
+  gap:5px;
+}
+
+
+
+
+
+
+
+

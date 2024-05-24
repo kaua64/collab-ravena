@@ -1,32 +1,25 @@
-
-
-
-:root{
-  /*background: linear-gradient(90deg, #001e57, #3a88fe, #fecb3e, #ff8647);*/
-  background-color: rgb(29, 29, 29);
-  /* background-color: white; */
-}
-
-#sidebar{
-  display: inline-flex;
-  
-  background-color: rgba(11, 67, 134, 1);
-}
-
-#menu{
-  border:none;
-  cursor:pointer;
-  background: none;
-
-  display:flex;
-  flex-direction: column;
-  gap:5px;
+#titulo-agendaMed{
+display: flex;
+flex-direction: row;
+align-items:center;
+text-align: center;
 }
 
 
 
+.container{
+    position: relative;
+    background-color: rgba(12,74,147,1);
+    
+}
 
-
-
-
-
+#imagem{
+    background-image: url(imagens/imagem-postinho.png);
+    opacity: 0.4;
+    background-repeat: repeat-x;
+}
+#titulo-agendaMed{
+    position: absolute;
+    top: 20%;
+    right: 40%;
+}
